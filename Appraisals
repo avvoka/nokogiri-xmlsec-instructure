@@ -1,11 +1,19 @@
 # frozen_string_literal: true
 
-appraise "nokogiri-16.6" do
-  gem "nokogiri", "1.16.6"
+appraise "nokogiri-18.8" do
+  gem "nokogiri", "1.18.8"
 end
 
-appraise "nokogiri-15.6" do
-  gem "nokogiri", "1.15.6"
+appraise "nokogiri-17.2" do
+  gem "nokogiri", "1.17.2"
+end
+
+appraise "nokogiri-16.8" do
+  gem "nokogiri", "1.16.8"
+end
+
+appraise "nokogiri-15.7" do
+  gem "nokogiri", "1.15.7"
 end
 
 appraise "nokogiri-14.5" do
